@@ -100,8 +100,8 @@ export default function Categorias() {
   return (
     <>
       <Form className="form-container" onSubmit={handleSubmit} >
-        <h3>Cadastro de Categorias</h3>
         <Container style={{padding:20, borderRadius:5}}>
+          <h3>Cadastro de Categorias</h3>
           <Row>
             <Col>
               <FloatingLabel controlId="floatingInputGrid" label="Nome da Categoria">

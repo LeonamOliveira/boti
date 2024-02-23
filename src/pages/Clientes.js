@@ -121,8 +121,8 @@ export default function Clientes() {
   return (
     <>
      <Form onSubmit={handleSubmit}>
-      <h3>Cadastro de Clientes</h3>
-      <Container>
+      <Container style={{padding:20, borderRadius:5}}>
+        <h3>Cadastro de Clientes</h3>
         <Row>
           <Col>
             <Form.Group controlId="formBasicName">

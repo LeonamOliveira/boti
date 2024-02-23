@@ -1,0 +1,21 @@
+.form-container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.table-container {
+  margin-top: 20px;
+}
+
+.table td {
+  vertical-align: middle;
+}
